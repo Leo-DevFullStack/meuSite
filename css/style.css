@@ -473,3 +473,17 @@ main {
 .navbar-link:focus { color: var(--light-gray-70); }
 
 .navbar-link.active { color: var(--orange-yellow-crayola); }
+/*-----------------------------------*\
+  #SOBRE
+\*-----------------------------------*/
+
+.sobre .article-title { margin-bottom: 15px; }
+
+.sobre-text {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
+
+.sobre-text p { margin-bottom: 15px; }
