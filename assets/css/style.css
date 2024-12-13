@@ -479,10 +479,6 @@ main {
 
 .navbar-link.active { color: var(--orange-yellow-crayola); }
 
-
-
-
-
 /*-----------------------------------*\
   #SOBRE
 \*-----------------------------------*/
@@ -497,7 +493,6 @@ main {
 }
 
 .sobre-text p { margin-bottom: 15px; }
-
 
 
 /**
@@ -546,7 +541,6 @@ main {
   font-weight: var(--fw-3);
   line-height: 1.6;
 }
-
 
 /**
  * #depoimentos 
@@ -598,7 +592,6 @@ main {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-
 
 /**
  * #depoimentos-modal
@@ -712,3 +705,37 @@ main {
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
+
+/**
+ * #parceiros 
+ */
+
+.parceiros { margin-bottom: 15px; }
+
+.parceiros-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+  margin: 0 -15px;
+  padding: 25px;
+  padding-bottom: 25px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: 25px;
+}
+
+.parceiros-item {
+  min-width: 50%;
+  scroll-snap-align: start;
+}
+
+.parceiros-item img {
+  width: 100%;
+  filter: grayscale(1);
+  transition: var(--transition-1);
+}
+
+.parceiros-item img:hover { filter: grayscale(0); }
