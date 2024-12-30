@@ -1,16 +1,24 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Leo-DevFullStack</title>
-  <link rel="shortcut icon" href="./assets/images/logoLD.jpg" type="image/x-icon">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
   <!--
-    - #google font link
+    - google font link
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,11 +27,11 @@
 
 <body>
 
-    <!--
+  <!--
     - #MAIN
-    -->
+  -->
 
-    <main>
+  <main>
 
     <!--
       - #SIDEBAR
@@ -34,13 +42,13 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/logoLD.jpg" alt="Leo Dalmazzo" width="80">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Leo Dalmazzo">Leo Dalmazzo</h1>
+          <h1 class="name" title="Richard hanrick">Richard hanrick</h1>
 
-          <p class="title">FULL STACK, SCRUM</p>
+          <p class="title">Web developer</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -66,7 +74,7 @@
             <div class="contact-info">
               <p class="contact-title">Email</p>
 
-              <a href="mailto:leleomesquita@gmail.com" class="contact-link">leleomesquita@gmail.com</a>
+              <a href="mailto:richard@example.com" class="contact-link">richard@example.com</a>
             </div>
 
           </li>
@@ -80,7 +88,7 @@
             <div class="contact-info">
               <p class="contact-title">Phone</p>
 
-              <a href="tel:+12133522795" class="contact-link">+55 11 9 9179-5884</a>
+              <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
             </div>
 
           </li>
@@ -92,9 +100,9 @@
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Nascimento</p>
+              <p class="contact-title">Birthday</p>
 
-              <time datetime="1982-06-23">08 out, 1999</time>
+              <time datetime="1982-06-23">June 23, 1982</time>
             </div>
 
           </li>
@@ -108,7 +116,7 @@
             <div class="contact-info">
               <p class="contact-title">Location</p>
 
-              <address>Brasil, São Paulo - SP</address>
+              <address>Sacramento, California, USA</address>
             </div>
 
           </li>
@@ -120,19 +128,19 @@
         <ul class="social-list">
 
           <li class="social-item">
-            <a href="https://www.linkedin.com/in/leonardo-dalmazzo-245027150?original_referer=https%3A%2F%2Fgithub.com%2FLeo-DevFullStack%2FLeo-DevFullStack%3Ftab%3Dreadme-ov-file" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="https://api.whatsapp.com/send?1=pt_BR&phone=55011991795884" class="social-link">
-              <ion-icon name="logo-whatsapp"></ion-icon>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="https://www.instagram.com/leo_dalmazzo99/?igsh=MXJhYTZ5NHcxcXZsYw%3D%3D" class="social-link">
+            <a href="#" class="social-link">
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
           </li>
@@ -142,6 +150,10 @@
       </div>
 
     </aside>
+
+
+
+
 
     <!--
       - #main-content
@@ -158,19 +170,19 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>Sobre</button>
+            <button class="navbar-link  active" data-nav-link>About</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Currículo</button>
+            <button class="navbar-link" data-nav-link>Resume</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Projetos</button>
+            <button class="navbar-link" data-nav-link>Portfolio</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button> <!--me inpirar em https://meyerweb.com/-->
+            <button class="navbar-link" data-nav-link>Blog</button>
           </li>
 
           <li class="navbar-item">
@@ -181,68 +193,46 @@
 
       </nav>
 
+
+
+
+
       <!--
-        - #SOBRE
+        - #ABOUT
       -->
 
-      <article class="sobre  active" data-page="sobre">
+      <article class="about  active" data-page="about">
 
         <header>
-          <h2 class="h2 article-title">Sobre mim</h2>
+          <h2 class="h2 article-title">About me</h2>
         </header>
 
-        <section class="sobre-text">
+        <section class="about-text">
           <p>
-            Estou cursando o Ensino Superior em Análise e Desenvolvimento de Sistemas, meu objetivo é desenvolver sites que combinem funcionalidade e usabilidade com um design atraente. Preazando também agregar um toque pessoal aos projetos, garantindo que eles sejam fáceis de utilizar com o propósito estabelecido.
+            I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
+            I enjoy
+            turning complex problems into simple, beautiful and intuitive designs.
           </p>
 
           <p>
-            Gostaria de transmitir a essência e a identidade da sua marca de maneira mais criativa possível. Venho estudando cenários para contribuir com o desenvolvimento web e programação Full Stack em diversas empresas, incluindo as internacionais.
+            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
+            Moreover, I
+            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
+            across your
+            message and identity in the most creative way. I created web design for many famous brand companies.
           </p>
         </section>
 
 
         <!--
-          - #service
+          - service
         -->
 
         <section class="service">
 
-          <h3 class="h3 service-title">Serviços</h3>
+          <h3 class="h3 service-title">What i'm doing</h3>
 
           <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="sites icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Programação</h4>
-
-                <p class="service-item-text">
-                  Desenvolver soluções práticas, inovadoras e sustentáveis, almejando viabilizar seus sohos.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design > UX & UI</h4>
-
-                <p class="service-item-text">
-                  Agreagar um designer sofisticado e chamativo ao seu site.
-                </p>
-              </div>
-
-            </li>
 
             <li class="service-item">
 
@@ -252,10 +242,26 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Automação</h4>
+                <h4 class="h4 service-item-title">Web design</h4>
 
                 <p class="service-item-text">
-                  Criar relátorios, scripts, tabelas, gráficós, planilhas, dashboards, mini Cursos e tutoriais sobre metodologias ágeis. 
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
                 </p>
               </div>
 
@@ -268,10 +274,26 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Páginas Responsivas</h4>
+                <h4 class="h4 service-item-title">Mobile apps</h4>
 
                 <p class="service-item-text">
-                  Sites profissionais flexível e que se adapta para os mais diveros tamanhos de telas disponíveis.
+                  Professional development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
                 </p>
               </div>
 
@@ -283,117 +305,97 @@
 
 
         <!--
-          - #depoimentos
+          - testimonials
         -->
 
-        <section class="depoimentos">
+        <section class="testimonials">
 
-          <h3 class="h3 depoimentos-title">Depoimentos</h3>
+          <h3 class="h3 testimonials-title">Testimonials</h3>
 
-          <ul class="depoimentos-list has-scrollbar">
+          <ul class="testimonials-list has-scrollbar">
 
-            <li class="depoimentos-item">
+            <li class="testimonials-item">
               <div class="content-card" data-testimonials-item>
 
-                <figure class="depoimentos-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Roberto Pereira" width="60" data-testimonials-avatar>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
                 </figure>
 
-                <h4 class="h4 depoimentos-item-title" data-testimonials-title>Roberto Pereira</h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
 
-                <div class="depoimentos-text" data-testimonials-text>
+                <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    O site que o Leonardo Mesquita fez para minha pizzaria ficou sensacional! Agora, os clientes podem ver o menu, fazer pedidos online e encontrar nossa localização com facilidade. O design é moderno e atraente, e a navegação é super intuitiva. Estou muito feliz com o resultado e já estou recebendo mais pedidos graças ao site novo. Ótimo trabalho, Leleo!
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
                   </p>
                 </div>
 
               </div>
             </li>
 
-            <li class="depoimentos-item">
+            <li class="testimonials-item">
               <div class="content-card" data-testimonials-item>
 
-                <figure class="depoimentos-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Camila Fernandes" width="60" data-testimonials-avatar>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
                 </figure>
 
-                <h4 class="h4 depoimentos-item-title" data-testimonials-title>Camila Fernandes</h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
 
-                <div class="depoimentos-text" data-testimonials-text>
+                <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    O Leonardo transformou nossa visão para o blog de jogos em uma realidade impressionante. Desde o início, foram atentos às nossas necessidades e forneceram soluções inovadoras que realmente se destacam. O resultado final é um blog dinâmico e visualmente atraente que tem sido um sucesso com nossos leitores. Agradecemos pela parceria incrível e recomendaria o Leo a qualquer criador de conteúdo.
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
                   </p>
                 </div>
 
               </div>
             </li>
 
-            <li class="depoimentos-item">
+            <li class="testimonials-item">
               <div class="content-card" data-testimonials-item>
 
-                <figure class="depoimentos-avatar-box">
-                  <img src="./assets/images/c4.png" alt="Renata Almeida" width="60" data-testimonials-avatar>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
                 </figure>
 
-                <h4 class="h4 depoimentos-item-title" data-testimonials-title>Renata Almeida</h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
 
-                <div class="depoimentos-text" data-testimonials-text>
+                <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    O site da minha loja de roupas desenvolvido pelo Leonardo Dalmazzo ficou fantástico! O design é elegante e a navegação é super intuitiva, facilitando a experiência de compra dos meus clientes. A equipe foi extremamente profissional e atendeu todas as minhas necessidades. Estou muito satisfeita com o resultado e com o suporte que recebi. Obrigada, LeoLeo!
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
                   </p>
                 </div>
 
               </div>
             </li>
 
-            <li class="depoimentos-item">
+            <li class="testimonials-item">
               <div class="content-card" data-testimonials-item>
 
-                <figure class="depoimentos-avatar-box">
-                  <img src="./assets/images/c3.png" alt="Luciano Dias Oliveira" width="60" data-testimonials-avatar>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
                 </figure>
 
-                <h4 class="h4 depoimentos-item-title" data-testimonials-title>Luciano Dias Oliveira</h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
 
-                <div class="depoimentos-text" data-testimonials-text>
+                <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    A página de consultoria financeira desenvolvido por ADML©© está excelente. A comunicação foi clara e o produto final é intuitivo e bem projetado. Estou muito satisfeito com o trabalho e já planejo novos projetos com eles.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="depoimentos-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="depoimentos-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Anna L. Rocha" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 depoimentos-item-title" data-testimonials-title>Anna L. Rocha</h4>
-
-                <div class="depoimentos-text" data-testimonials-text>
-                  <p>
-                    Eu queria um site que transmitisse a essência do meu estúdio de pilates e yoga, e a ADML© fez exatamente isso! O resultado foi um site inspirador e intuitivo, com informações detalhadas sobre nossas aulas, professores e horários. Recebemos muitos elogios dos alunos, que agora conseguem agendar suas aulas diretamente pelo site. A experiência com a equipe foi excelente, desde o planejamento até a entrega. Recomendo a ADML© a todos que buscam qualidade e comprometimento.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="depoimentos-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="depoimentos-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Carlos Silva" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 depoimentos-item-title" data-testimonials-title>Carlos Silva</h4>
-
-                <div class="depoimentos-text" data-testimonials-text>
-                  <p>
-                    Minha loja de motos precisava de uma presença online que refletisse nossa paixão por duas rodas. A ADML©© superou as expectativas! O site ficou incrível, com um design moderno e funcional, permitindo aos clientes explorarem nosso catálogo de motos novas e usadas com facilidade. A integração para solicitações de orçamento e agendamento de visitas é impecável. Parabéns para todos da equipe pelo projeto ágil, criativa e muito atento às nossas necessidades. Sem dúvida, uma parceria que fará minha loja decolar ainda mais!
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
                   </p>
                 </div>
 
@@ -404,15 +406,16 @@
 
         </section>
 
+
         <!--
-          - #depoimentos modal
+          - testimonials modal
         -->
 
         <div class="modal-container" data-modal-container>
 
           <div class="overlay" data-overlay></div>
 
-          <section class="depoimentos-modal">
+          <section class="testimonials-modal">
 
             <button class="modal-close-btn" data-modal-close-btn>
               <ion-icon name="close-outline"></ion-icon>
@@ -420,7 +423,7 @@
 
             <div class="modal-img-wrapper">
               <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Roberto Pereira" width="80" data-modal-img>
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
               </figure>
 
               <img src="./assets/images/icon-quote.svg" alt="quote icon">
@@ -428,13 +431,17 @@
 
             <div class="modal-content">
 
-              <h4 class="h3 modal-title" data-modal-title>Roberto Pereira</h4>
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
 
               <time datetime="2021-06-14">14 June, 2021</time>
 
               <div data-modal-text>
                 <p>
-                  O site que o Leonardo Mesquita fez para minha pizzaria ficou sensacional! Agora, os clientes podem ver o menu, fazer pedidos online e encontrar nossa localização com facilidade. O design é moderno e atraente, e a navegação é super intuitiva. Estou muito feliz com o resultado e já estou recebendo mais pedidos graças ao site novo. Ótimo trabalho, Leleo!
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
                 </p>
               </div>
 
@@ -446,72 +453,48 @@
 
 
         <!--
-          - #parceiros
+          - clients
         -->
 
-        <section class="parceiros">
+        <section class="clients">
 
-          <h3 class="h3 parceiros-title">Parceiros</h3>
+          <h3 class="h3 clients-title">Clients</h3>
 
-          <ul class="parceiros-list has-scrollbar">
+          <ul class="clients-list has-scrollbar">
 
-            <li class="parceiros-item">
+            <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/p1.png" alt="client logo">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
               </a>
             </li>
 
-            <li class="parceiros-item">
+            <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/p2.png" alt="client logo">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
               </a>
             </li>
 
-            <li class="parceiros-item">
-              <a href="#">
-                <img src="./assets/images/p4.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="parceiros-item">
-              <a href="#">
-                <img src="./assets/images/p3.png" alt="client logo">
-              </a>
-            </li>
-            
-            <li class="parceiros-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
-            
-            <li class="parceiros-item">
+            <li class="clients-item">
               <a href="#">
                 <img src="./assets/images/logo-3-color.png" alt="client logo">
               </a>
             </li>
 
-            <li class="parceiros-item">
+            <li class="clients-item">
               <a href="#">
                 <img src="./assets/images/logo-4-color.png" alt="client logo">
               </a>
             </li>
 
-            <li class="parceiros-item">
+            <li class="clients-item">
               <a href="#">
                 <img src="./assets/images/logo-5-color.png" alt="client logo">
               </a>
             </li>
-               
-            <li class="parceiros-item">
+
+            <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
-              </a>
-            </li>
-            
-            <li class="parceiros-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
               </a>
             </li>
 
@@ -521,14 +504,18 @@
 
       </article>
 
+
+
+
+
       <!--
-        - #CURRÍCULO
+        - #RESUME
       -->
 
-      <article class="currículo" data-page="currículo">
+      <article class="resume" data-page="resume">
 
         <header>
-          <h2 class="h2 article-title">Currículo</h2>
+          <h2 class="h2 article-title">Resume</h2>
         </header>
 
         <section class="timeline">
@@ -538,91 +525,48 @@
               <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <h3 class="h3">Experiência</h3>
+            <h3 class="h3">Education</h3>
           </div>
 
           <ol class="timeline-list">
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Cartório Registro Civil e Tabelionato de Notas</h4>
+              <h4 class="h4 timeline-item-title">University school of the arts</h4>
 
-              <span>03/10/2023 - (Emprego atual)</span>
+              <span>2007 — 2008</span>
 
               <p class="timeline-text">
-                Auxiliar de Cartório
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Adao Acessorios Para Motos Ltda Me</h4>
+              <h4 class="h4 timeline-item-title">New york academy of art</h4>
 
-              <span>2022 - 2023 (4 meses)</span>
+              <span>2006 — 2007</span>
 
               <p class="timeline-text">
-                Vendedor
+                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
+                omnis..
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Jv Papelaria - vaga temporária para auxiliar no volta as aulas</h4>
+              <h4 class="h4 timeline-item-title">High school of art and design</h4>
 
-              <span>2021 - 2022 (3 meses)</span>
-
-              <p class="timeline-text">
-                Atendente
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Adao Acessorios Para Motos Ltda Me</h4>
-
-              <span>2019 - 2020 (6 meses)</span>
+              <span>2002 — 2004</span>
 
               <p class="timeline-text">
-                Vendedor
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Auto Posto CopaCabana Ltda</h4>
-
-              <span>2019 - (4 meses)</span>
-
-              <p class="timeline-text">
-                Caixa
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Auto Posto Blue Ltda</h4>
-
-              <span>2018 - 2019 (9 meses)</span>
-
-              <p class="timeline-text">
-                Frentista
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Estagiário Caixa Econômica Federal (CIEE)</h4>
-
-              <span>2016 - (4 meses)</span>
-
-              <p class="timeline-text">
-                ATM - Posso Ajudar, Caixa
+                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
+                magni dolores
+                eos.
               </p>
 
             </li>
@@ -638,67 +582,49 @@
               <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <h3 class="h3">Formação</h3>
+            <h3 class="h3">Experience</h3>
           </div>
 
           <ol class="timeline-list">
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Faculdade Presencial</h4>
+              <h4 class="h4 timeline-item-title">Creative director</h4>
 
-              <span>2024 — Atualmente</span>
+              <span>2015 — Present</span>
 
               <p class="timeline-text">
-                Cursando Análise e Desenvolvimento de Sistemas (3° Semestre UNIP).
+                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
+                molestias
+                exceptur.
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Faculdade EAD</h4>
+              <h4 class="h4 timeline-item-title">Art director</h4>
 
-              <span>2023 — 2024 (6 meses)</span>
+              <span>2013 — 2015</span>
 
               <p class="timeline-text">
-                Análise e Desenvolvimento de Sistemas (FIAP - ON).
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Curso em Vídeo</h4>
+              <h4 class="h4 timeline-item-title">Web designer</h4>
 
-              <span>2021 - [40 horas]</span>
-
-              <p class="timeline-text">
-                Algoritmo - Gustavo Guanabara.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Inglês intermediário</h4>
-
-              <span>2018 - 2020</span>
+              <span>2010 — 2013</span>
 
               <p class="timeline-text">
-                3 anos estudando na Cultura Inglesa - Unidade de Pirituba.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Ensino Médio</h4>
-
-              <span>Me formei no final de 2017</span>
-
-              <p class="timeline-text">
-                2º grau completo.
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
               </p>
 
             </li>
@@ -707,59 +633,82 @@
 
         </section>
 
-          <section class="skill">
+        <section class="skill">
 
-            <h3 class="h3 skills-title">Técnologias e Ferramentas</h3>
+          <h3 class="h3 skills-title">My skills</h3>
 
-            <section class="tutorial">
-              <div class="container">
-                  <div class="scroller">
-                      <p class="item">HTML</p>
-                      <p class="item">CSS</p>
-                      <p class="item">JAVASCRIPT</p>
-                      <p class="item">C</p>
-                      <p class="item">RUBY ON RAILS</p>
-                      <p class="item">PYTHON</p>
-                      <p class="item">GIT & GITHUB</p>
-                      <p class="item">SCRUM</p>
-                      <p class="item">TRELLO</p>
-                      <p class="item">GOOGLE SHEETS</p>
-                      <p class="item">WEB DEVELOPER</p>
-                      <p class="item">FRONT END</p>
-                      <p class="item">BACK END</p>
-                      <p class="item">FULL STACK</p>
-                  </div>
-                  <div class="scroller">
-                    <p class="item">HTML</p>
-                    <p class="item">CSS</p>
-                    <p class="item">JAVASCRIPT</p>
-                    <p class="item">C</p>
-                    <p class="item">RUBY ON RAILS</p>
-                    <p class="item">PYTHON</p>
-                    <p class="item">GIT & GITHUB</p>
-                    <p class="item">SCRUM</p>
-                    <p class="item">TRELLO</p>
-                    <p class="item">GOOGLE SHEETS</p>
-                    <p class="item">WEB DEVELOPER</p>
-                    <p class="item">FRONT END</p>
-                    <p class="item">BACK END</p>
-                    <p class="item">FULL STACK</p>
-                </div>
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
               </div>
-          </section>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Branding</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
 
         </section>
 
       </article>
 
+
+
+
+
       <!--
-        - #PROJETOS
+        - #PORTFOLIO
       -->
 
-      <article class="projetos" data-page="projetos">
+      <article class="portfolio" data-page="portfolio">
 
         <header>
-          <h2 class="h2 article-title">projetos</h2>
+          <h2 class="h2 article-title">Portfolio</h2>
         </header>
 
         <section class="projects">
@@ -771,23 +720,15 @@
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Sites</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Aplicativos</button>
-            </li>
-
-            <li class="filter-item">
               <button data-filter-btn>Web design</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Programas</button>
+              <button data-filter-btn>Applications</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Planilhas</button>
+              <button data-filter-btn>Web development</button>
             </li>
 
           </ul>
@@ -811,22 +752,15 @@
               </li>
 
               <li class="select-item">
-                <button data-select-item>Sites</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Aplicativos</button>
-              </li>
-
-              <li class="select-item">
                 <button data-select-item>Web design</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Programas</button>
+                <button data-select-item>Applications</button>
               </li>
+
               <li class="select-item">
-                <button data-select-item>Planilhas</button>
+                <button data-select-item>Web development</button>
               </li>
 
             </ul>
@@ -835,7 +769,7 @@
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="sites">
+            <li class="project-item  active" data-filter-item data-category="web development">
               <a href="#">
 
                 <figure class="project-img">
@@ -846,14 +780,14 @@
                   <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Finanças</h3>
+                <h3 class="project-title">Finance</h3>
 
-                <p class="project-category">Sites</p>
+                <p class="project-category">Web development</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="sites">
+            <li class="project-item  active" data-filter-item data-category="web development">
               <a href="#">
 
                 <figure class="project-img">
@@ -864,9 +798,9 @@
                   <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">dashboard</h3>
+                <h3 class="project-title">Orizon</h3>
 
-                <p class="project-category">Sites</p>
+                <p class="project-category">Web development</p>
 
               </a>
             </li>
@@ -882,14 +816,14 @@
                   <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Construtora</h3>
+                <h3 class="project-title">Fundo</h3>
 
                 <p class="project-category">Web design</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="aplicativos">
+            <li class="project-item  active" data-filter-item data-category="applications">
               <a href="#">
 
                 <figure class="project-img">
@@ -900,9 +834,9 @@
                   <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Aplicativa de celular</h3>
+                <h3 class="project-title">Brawlhalla</h3>
 
-                <p class="project-category">Aplicativos</p>
+                <p class="project-category">Applications</p>
 
               </a>
             </li>
@@ -918,7 +852,7 @@
                   <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Site</h3>
+                <h3 class="project-title">DSM.</h3>
 
                 <p class="project-category">Web design</p>
 
@@ -943,7 +877,7 @@
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="sites">
+            <li class="project-item  active" data-filter-item data-category="web development">
               <a href="#">
 
                 <figure class="project-img">
@@ -956,12 +890,12 @@
 
                 <h3 class="project-title">Summary</h3>
 
-                <p class="project-category">Sites</p>
+                <p class="project-category">Web development</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="aplicativos">
+            <li class="project-item  active" data-filter-item data-category="applications">
               <a href="#">
 
                 <figure class="project-img">
@@ -974,12 +908,12 @@
 
                 <h3 class="project-title">Task Manager</h3>
 
-                <p class="project-category">Aplicativos</p>
+                <p class="project-category">Applications</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="aplicativos">
+            <li class="project-item  active" data-filter-item data-category="web development">
               <a href="#">
 
                 <figure class="project-img">
@@ -987,103 +921,13 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-9.png" alt="transportadora" loading="lazy">
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Transportadora</h3>
+                <h3 class="project-title">Arrival</h3>
 
-                <p class="project-category">Aplicativos</p>
+                <p class="project-category">Web development</p>
 
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="sites">
-              <a href="https://leo-devfullstack.github.io/portfolio/">
-  
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-  
-                  <img src="./assets/images/p1.png" alt="pizzaria" loading="lazy">
-                </figure>
-  
-                <h3 class="project-title">Pizzaria</h3>
-  
-                <p class="project-category">Sites</p>
-  
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="sites">
-              <a href="https://leo-devfullstack.github.io/portfolio/">
-  
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-  
-                  <img src="./assets/images/p2.png" alt="game blog" loading="lazy">
-                </figure>
-  
-                <h3 class="project-title">Game Blog</h3>
-  
-                <p class="project-category">Sites</p>
-  
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="sites">
-              <a href="https://leo-devfullstack.github.io/portfolio/">
-  
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-  
-                  <img src="./assets/images/p4.png" alt="loja de roupas" loading="lazy">
-                </figure>
-  
-                <h3 class="project-title">Loja de Roupas</h3>
-  
-                <p class="project-category">Sites</p>
-  
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="planilhas">
-              <a href="https://leo-devfullstack.github.io/portfolio/">
-  
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-  
-                  <img src="./assets/images/p3.png" alt="planilhas" loading="lazy">
-                </figure>
-  
-                <h3 class="project-title">Consultora Financeira</h3>
-  
-                <p class="project-category">Planilhas</p>
-  
-              </a>
-            </li>
-            
-            <li class="project-item  active" data-filter-item data-category="sites">
-              <a href="https://leo-devfullstack.github.io/portfolio/">
-  
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-  
-                  <img src="./assets/images/pj1.JPG" alt="portfolio" loading="lazy">
-                </figure>
-  
-                <h3 class="project-title">Portfolio</h3>
-  
-                <p class="project-category">Sites</p>
-  
               </a>
             </li>
 
@@ -1093,8 +937,12 @@
 
       </article>
 
+
+
+
+
       <!--
-        - #BLOG depis vou me inpirar em https://meyerweb.com
+        - #BLOG
       -->
 
       <article class="blog" data-page="blog">
@@ -1275,39 +1123,15 @@
               </a>
             </li>
 
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="improve your english" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">English</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">out 10, 2017</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Improve your English</h3>
-
-                  <p class="blog-text">
-                    You're not so beginner as you think. English examples in your daily.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
           </ul>
 
         </section>
 
       </article>
+
+
+
+
 
       <!--
         - #CONTACT
@@ -1321,7 +1145,9 @@
 
         <section class="mapbox" data-mapbox>
           <figure>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7317.64634437863!2d-46.70353306039083!3d-23.50287782655105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef84e463a702d%3A0xffa287ef463c2002!2sFreguesia%20do%20%C3%93%2C%20S%C3%A3o%20Paulo%20-%20State%20of%20S%C3%A3o%20Paulo%2C%20Brazil!5e0!3m2!1sen!2sbd!4v1731722470141!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
           </figure>
         </section>
 
@@ -1354,11 +1180,16 @@
 
   </main>
 
+
+
+
+
+
   <!--
     - custom js link
   -->
   <script src="./assets/js/script.js"></script>
-  
+
   <!--
     - ionicon link
   -->
