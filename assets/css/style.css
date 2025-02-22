@@ -389,37 +389,37 @@ main {
   visibility: visible;
 }
 
-.contacts-list {
+.lista-contatos {
   display: grid;
   grid-template-columns: 1fr;
   gap: 16px;
 }
 
-.contact-item {
+.contato-item {
   min-width: 100%;
   display: flex;
   align-items: center;
   gap: 16px;
 }
 
-.contact-info {
+.contato-info {
   max-width: calc(100% - 46px);
   width: calc(100% - 46px);
 }
 
-.contact-title {
+.contato-title {
   color: var(--light-gray-70);
   font-size: var(--fs-8);
   text-transform: uppercase;
   margin-bottom: 2px;
 }
 
-.contact-info :is(.contact-link, time, address) {
+.contato-info :is(.contato-link, time, address) {
   color: var(--white-2);
   font-size: var(--fs-7);
 }
 
-.contact-info address { font-style: normal; }
+.contato-info address { font-style: normal; }
 
 .social-list {
   display: flex;
@@ -1107,7 +1107,7 @@ main {
   filter: grayscale(1) invert(1);
 }
 
-.contact-form { margin-bottom: 10px; }
+.contato-form { margin-bottom: 10px; }
 
 .form-title { margin-bottom: 20px; }
 
@@ -1310,9 +1310,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .separator { margin: 32px 0; }
 
-  .contacts-list { gap: 20px; }
+  .lista-contatos { gap: 20px; }
 
-  .contact-info {
+  .contato-info {
     max-width: calc(100% - 64px);
     width: calc(100% - 64px);
   }
@@ -1455,7 +1455,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .blog-content { padding: 25px; }
 
   /**
-   * #CONTACT
+   * #CONTATO
    */
 
   .mapbox {
@@ -1499,7 +1499,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * SIDEBAR
    */
 
-  .contacts-list {
+  .lista-contatos {
     grid-template-columns: 1fr 1fr;
     gap: 30px 15px;
   }
@@ -1555,7 +1555,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .project-list, .blog-posts-list { grid-template-columns: 1fr 1fr; }
 
   /**
-   * CONTACT
+   * CONTATO
    */
 
   .input-wrapper { grid-template-columns: 1fr 1fr; }
@@ -1751,15 +1751,15 @@ textarea.form-input::-webkit-resizer { display: none; }
     visibility: visible;
   }
 
-  .contacts-list { grid-template-columns: 1fr; }
+  .lista-contatos { grid-template-columns: 1fr; }
 
-  .contact-info :is(.contact-link) {
+  .contato-info :is(.contato-link) {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
   }
 
-  .contact-info :is(.contact-link, time, address) {
+  .contato-info :is(.contato-link, time, address) {
     --fs-7: 14px;
     font-weight: var(--fw-300);
   }
